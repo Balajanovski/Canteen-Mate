@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Canteen Mate</title>
+    <meta charset = "utf-8">
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" type="text/css"
@@ -11,6 +12,17 @@
     <link rel="stylesheet" type="text/css" href="css/home.css">
   </head>
   <body>
+    <div class = "popup">
+      <div class = "popupBackground"></div>
+      <div class = "popupWrapper">
+        <div class = "popupText">
+          <a class = "close" href = "#">CLOSE</a>
+          <h4>Contact Details</h4>
+          <p class = "contact">
+            Ph: 01 34 56 89<br>Email: canteenmate@gmail.com</p>
+        </div>
+      </div>
+    </div>
     <div class = "nav_wrapper" id = "nav_wrapper">
       <nav>
         <ul>
@@ -66,11 +78,11 @@ Code will soon be uploaded to GitHub</p>
     <img src = "images/canteen.jpeg" width = "500" length = "250" id = "canteen" class = "fadeInBlock">
   </div>
   <div class = "contact-wrapper">
-    <span class = "contact" id = "contact"><br>Contact:<br>Ph: 01 34 56 89<br>Email: canteenmate@gmail.com</span>
   </div>
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/home.js"></script>
-    <script src="js/navbar.js"></script>
     <script src="js/contact.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>
