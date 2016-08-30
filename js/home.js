@@ -1,6 +1,4 @@
-$('h1.motto').hide().fadeIn(1700);
-$('#phone').hide().fadeIn(1700);
-$('div.first').hide().fadeIn(1700);
+$('body').hide().fadeIn(1700);
 
 $(document).ready(function() {
 
