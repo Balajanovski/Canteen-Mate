@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canteen Mate</title>
+    <meta charset = "utf-8" name="google-signin-client_id" content="519612064268-rki848qge5cqejtfcntirlgp4c1pqt04.apps.googleusercontent.com">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" type="text/css" href="css/1444.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 1238px) and (max-width:1580px)"
+    href="css/1233-1444.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:1238px)"
+    href="css/1233.css">
+  </head>
+  <body>
+    <div class = "popup">
+      <div class = "popupBackground"></div>
+      <div class = "popupWrapper">
+        <div class = "popupText">
+          <a id = "close" href = "#">CLOSE</a>
+          <h4>Contact Details</h4>
+          <p class = "contact">
+            Ph: 01 34 56 89<br>Email: canteenmate@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class = "about">
+      <div class = "popupBackground"></div>
+      <div class = "popupWrapper">
+        <div class = "popupText">
+          <a id = "close" href = "#">CLOSE</a>
+          <h4>About us</h4>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/3qELOYQp7xo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class = "purchase">
+      <div class = "popupBackground"></div>
+      <div class = "popupWrapper">
+        <div class = "popupText">
+          <a id = "close" href = "#">CLOSE</a>
+          <h4>Purchase</h4>
+          <p>To purchase an item input your name and email address and then click on
+            the item you wish to purchase</p>
+          <table id="popupTable">
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Canteen mate<br>setup kit</td>
+              <td>$10 (including shipping)</td>
+            </tr>
+            <tr>
+              <td>Supporter</td>
+              <td>$20</td>
+            </tr>
+            <tr>
+              <td>Friend of canteen mate</td>
+              <td>$40</td>
+            </tr>
+            <tr>
+              <td>Canteen mate's best friend</td>
+              <td>$80</td>
+            </tr>
+          </table>
+          <p>Name: <input type="text" name="name" maxlength="30"></p>
+          <p>Email: <input type="text" name="name" maxlength="30"></p>
+          <select name = "purchase">
+            <option>Setup kit - $10</option>
+            <option>Supporter - $20</option>
+            <option>Friend of canteen mate - $40</option>
+            <option>Canteen mate's best friend - $80</option>
+          </select>
+          <form METHOD="LINK" ACTION="gateway.html">
+            <input type="submit" name="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class = "nav_wrapper" id = "nav_wrapper">
+      <nav>
+        <ul>
+          <li class = "current"><a href="#nav_wrapper" id = "Home" class = "nav">Home</a></li>
+          <li><a href="#about" id = "About" class = "nav">About</a></li>
+          <li><a href="#contact" id = "Contact" class = "nav">Contact</a></li>
+          <li><a href="#" id = "Purchase" class = "nav">Purchase</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class = "wrapper">
+      <img src="images/newfood.jpg" alt="Food" class="luncho">
+      <div class = "text">
+        <h1 class = "motto">Ordering from the canteen has never been so simple<br>
+        <p class = "motto-description" id = "about">Order food from your canteen from
+        anywhere as long as you have data.</p></h1>
+      </div>
+    </div>
+    <div id = "content">
+    <div class = "first column">
+      <h3>Why use Canteen Mate</h3>
+      <p>
+Canteen mate is a small, free app, completely powered off of donations that allows you
+to purchase items from your canteen, from your phone. Yes, as long as you have data
+or wifi you can order food from your canteen. Canteen mate comes with data compression
+to lower your mobile bills, and voice control, for when you're on the run</p>
+    </div>
+    <div class = "fadeInBlock column">
+      <p>
+      <h3>Who should use Canteen Mate</h3>
+      Anyone who wishes to order food from the ease and comfort of their own phone.<br><br>
+
+        - School students<br>
+        - University students<br>
+        - Workers<br><br>
+
+      As long as your canteen is set up to work with Canteen Mate, you can order from
+      your phone.
+</p>
+    </div>
+    <div class = "fadeInBlock column">
+      <p>
+      <h3>How was Canteen Mate made</h3>
+Canteen mate started up as a small idea to make ordering from your canteen a lot easier.<br><br>
+Long queues always bothered us, because, with modern day technology automation is so easy, so,
+we decided to make Canteen Mate<br><br>Canteen mate uses Objective-C and SQL for the iOS app, while it
+ uses Java and SQL for the android app.<br><br>The data is processed by a Java applet, located on our server<br><br>
+Code will soon be uploaded to GitHub</p>
+    </div>
+    <div class = "fadeInBlock column">
+      <p><h3>How to get canteen mate?</h3>Canteen mate is available on the Google play store and app store
+      for free. On first startup canteen mate will ask you for the name of your canteen, just input it and
+      hey presto, you're ready to order from your canteen.<br><br><h3>Well what if my canteen isn't listed?</h3>
+      If your canteen isn't listed it just means that your canteen hasn't set up canteen mate yet. Just ask them
+      to implement the system and you will be able to order food from your canteen from anywhere.</p>
+    </div>
+    <div class = "fadeInBlock column">
+      <p><h3>How do I set up canteen mate in my school?</h3>
+        You need to purchase a canteen mate setup kit to be able
+        to utilise canteen mate at your school or workplace canteen.
+        For an extremely cheap price you can buy the canteen mate setup kit,
+        and start canteen mate running in the space of less than an hour after
+        delivery.</p>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Canteen mate<br>setup kit</td>
+          <td>$10 (including shipping)</td>
+        </tr>
+        <tr>
+          <td>Supporter</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td>Friend of canteen mate</td>
+          <td>$40</td>
+        </tr>
+        <tr>
+          <td>Canteen mate's best friend</td>
+          <td>$80</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class = "images">
+    <img src = "images/phone.jpeg" width = "400" length = "200" id = "phone">
+    <img src = "images/computer.jpg" width = "300" length = "150" id = "computer" class = "fadeInBlock">
+    <img src = "images/canteen.jpeg" width = "500" length = "250" id = "canteen" class = "fadeInBlock">
+    <img src = "images/CanteenMateGUI.png" width = "337.5" length = "600" id = "gui" class = "fadeInBlock">
+  </div>
+  <div class = "details">
+  </div>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>
