@@ -1,4 +1,4 @@
 # Canteen-Mate
 First proper website I made.<br>
 I created this website for a school project.<br>
-It uses javascript, html and CSS.
+It uses Javascript, HTML and Css.
